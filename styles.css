@@ -21,8 +21,8 @@ div {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 3em;
+  font-weight: 900;
   color: red;
   margin-bottom: 30px;
   background: url('images/headbg.png') top left repeat;
@@ -43,9 +43,10 @@ h1 {
 }
 #article {
   border-right: 5px solid green;
-  color: red;
+  color: #000;
 }
 #footer {
+  visibility: hidden;
   font-size: 0.5em;
   border-top: 1px solid #000;
   margin-top: 20px;
