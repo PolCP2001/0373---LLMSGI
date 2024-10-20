@@ -1,0 +1,44 @@
+body {
+    font-family: "serif";
+    font-size: 1.2em;
+    background-color: #fddaef;
+}
+
+p {
+    line-height: 125%;
+}
+
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+    color: #cc22ff;
+    font-family: Arial, sans-serif;
+}
+
+#especial::first-letter {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.code {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.intro {
+    color: #4a4a4a;
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.conclusio {
+    color: #ff5722;
+    background-color: #fff9c4;
+    padding: 10px;
+    border: 2px dashed #ff9800;
+}
