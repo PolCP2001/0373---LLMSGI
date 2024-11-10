@@ -1,0 +1,249 @@
+/* Conf General   */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px 20px;
+    position: sticky; 
+    top: 0; 
+    border-bottom: 5px sold grey;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    padding-right: 80px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: white; 
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.background {
+    background-image: url('img/fondoindex.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: green;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.background h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -100px; 
+}
+
+.background p {
+    font-size: 24px;
+    margin-top: 5px; 
+    text-align: left;
+}
+
+
+footer {
+    background-color: green;
+    color: black;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+footer p a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* Fin Conf General */
+
+/* Tabla de precios */
+.PreciosBody {
+    background-color: lightgray;
+}
+
+.pricing-table {
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing-table h1 {
+    font-size: 36px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 2px solid white !important; 
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+table, th, td {
+    border: none; 
+    padding: 10px;
+    background-color: white;
+}
+
+th {
+    background-color: #4c5a6b;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border-right: 1px solid white; 
+}
+
+tr {
+    border-bottom: 2px solid whitesmoke; 
+}
+
+td {
+    text-align: center;
+}
+
+.tbHead th {
+    font-family: "Comic Sans MS", sans-serif !important;
+}
+
+.bottom {
+    background-color: #4c5a6b;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Comic Sans MS", sans-serif !important;
+}
+
+tr.individual td {
+    background-color: whitesmoke;
+    color: black;
+}
+
+tr.doble td {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+/* Conf Formulario */
+.form-container {
+    width: 60%; 
+    padding: 25px;
+    margin: 20px auto; 
+    background: rgba(46, 46, 46, 0.500); 
+    display: flex; 
+    flex-wrap: wrap; 
+    color: white;
+    text-align: left;
+}
+
+h3 {
+    color: white; 
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    width: 100%; 
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 45%; 
+    margin: 10px; 
+}
+
+label {
+    margin-bottom: 5px; 
+    font-size: 18px; 
+}
+
+input, select, textarea {
+    padding: 15px; 
+    margin-bottom: 20px; 
+    background: transparent; 
+    border: none; 
+    border-bottom: 2px solid whitesmoke;
+    font-size: 16px; 
+    color: whitesmoke; 
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: lightgrey; 
+    opacity: 1; 
+}
+
+#roomType {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid #888;
+}
+
+#roomType option {
+    background-color: #292828;
+    color: #ffffff;
+}
+
+.radio-group input[type="checkbox"] {
+    transform: scale(1.5); 
+    cursor: pointer; 
+    margin-left: 10px; 
+}
+
+.radio-group input[type="radio"] {
+    transform: scale(1.5); 
+    cursor: pointer; 
+    margin-left: 10px; 
+}
+
+.special-requests {
+    height: 135px; 
+    resize: none; 
+}
+
+button.form-submit {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto 0; 
+    border: none;
+    border-radius: 5px; 
+    background: #1c87c9; 
+    font-size: 14px;
+    font-weight: 600;
+    color: white; 
+    cursor: pointer; 
+}
+
