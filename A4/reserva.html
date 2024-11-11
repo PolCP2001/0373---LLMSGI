@@ -100,14 +100,12 @@
     </footer>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Obtener los elementos del formulario
             const email1 = document.getElementById("email");
             const email2 = document.getElementById("confirmEmail");
             const checkInDate = document.getElementById("checkIn");
             const checkOutDate = document.getElementById("checkOut");
             const form = document.querySelector("form");
-
-            // Validación de correos electrónicos
+            
             email2.addEventListener("input", function () {
                 if (email1.value !== email2.value) {
                     email2.setCustomValidity("Los correos electrónicos no coinciden.");
@@ -116,7 +114,6 @@
                 }
             });
 
-            // Validación de fechas
             checkOutDate.addEventListener("input", function () {
                 const checkIn = new Date(checkInDate.value);
                 const checkOut = new Date(checkOutDate.value);
@@ -127,11 +124,10 @@
                 }
             });
 
-            // Validar el formulario antes de enviarlo
             form.addEventListener("submit", function (event) {
                 if (!form.checkValidity()) {
                     event.preventDefault(); // Evita el envío si el formulario no es válido
-                    form.reportValidity(); // Muestra los mensajes de error personalizados
+                    form.reportValidity(); // Muestra mensajes de error personalizados
                 }
             });
         });
