@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demana Cita - Brit Shalom Tortosa</title>
+    <link rel="stylesheet" href="estils.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Brit Shalom Tortosa</h1>
+        <h2>Demana Cita</h2>
+    </header>
+
+    <div id="clock" class="clock"></div>
+
+    <nav>
+        <a href="index.html">Inici</a>
+        <a href="prices.html">Preus</a>
+        <a href="reservations.html">Demana Cita</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Formulari de Sol·licitud de Cita</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dades Personals</legend>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required>
+
+                    <label for="cognom">Cognom:</label>
+                    <input type="text" id="cognom" name="cognom" required>
+
+                    <label for="telefon">Telèfon de contacte:</label>
+                    <input type="tel" id="telefon" name="telefon" pattern="[0-9]{9}" required>
+
+                    <label for="email">Correu electrònic:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password1">Contrasenya:</label>
+                    <input type="password" id="password1" required minlength="8">
+                    <button type="button" class="toggle-password" onclick="togglePasswordVisibility('password1', this)">
+                    <span class="eye-icon">👀</span>
+                    </button>
+                    
+                    <label for="password2">Repeteix la Contrasenya:</label>
+                    <input type="password" id="password2" required minlength="8">
+                    <button type="button" class="toggle-password" onclick="togglePasswordVisibility('password2', this)">
+                    <span class="eye-icon">👀</span>
+                    </button>
+                    
+                    <button type="button" class="cosmic-button" onclick="validatePassword()">Enviar</button>
+                    
+                    <label for="data_naixement">Data de naixement:</label>
+                    <input type="date" id="data_naixement" name="data_naixement" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Domicili</legend>
+                    <label for="adreca">Adreça:</label>
+                    <input type="text" id="adreca" name="adreca" required>
+
+                    <label for="ciutat">Ciutat:</label>
+                    <input type="text" id="ciutat" name="ciutat" required>
+
+                    <label for="codi_postal">Codi Postal:</label>
+                    <input type="text" id="codi_postal" name="codi_postal" pattern="[0-9]{5}" required>
+
+                    <label for="provincia">Província:</label>
+                    <input type="text" id="provincia" name="provincia" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informació sobre la cita</legend>
+                    <label for="tipus_cirugia">Tipus de cirurgia sol·licitada:</label>
+                    <select id="tipus_cirugia" name="tipus_cirugia" required>
+                        <option value="brit_milah">Brit Milah (Tradicional)</option>
+                        <option value="circumcisio_adults">Circumcisió en Adults</option>
+                        <option value="revisio_reparacio">Revisió i Reparació</option>
+                    </select>
+
+                    <label for="primera_cita">
+                        <input type="checkbox" id="primera_cita" name="primera_cita">
+                        Primera cita
+                    </label>
+
+                    <label for="comentaris">Comentaris:</label>
+                    <textarea id="comentaris" name="comentaris" rows="5" placeholder="Escriu aquí els teus comentaris o preguntes..."></textarea>
+                </fieldset>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed by Pol Casanova Puig</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

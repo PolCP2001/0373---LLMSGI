@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brit Shalom Tortosa</title>
+    <link rel="stylesheet" href="estils.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Brit Shalom Tortosa</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inici</a>
+        <a href="prices.html">Preus</a>
+        <a href="reservations.html">Demana Cita</a>
+    </nav>
+
+    <main>
+        <section id="qui-som">
+            <h2>Qui som?</h2>
+            <p>Brit Shalom Tortosa és una clínica especialitzada en circumcisió jueva fundada l’any 1942 a la ciutat de Tortosa. Els nostres inicis es remunten a la comunitat de jueus exiliats de Polònia després de la invasió de l’Alemanya nazi i posteriorment instal·lats a diferents indrets de la pedania de Tortosa. Comptem amb un equip format per 13 metges especialitzats en aquest tipus de cirurgia, seguint el mètode tradicional marcat per les sagrades pautes del Torà.</p>
+        </section>
+
+        <section id="valors">
+            <h2>Els nostres valors</h2>
+            <p>A Brit Shalom Tortosa, seguim fidelment els valors de la comunitat jueva ultraortodoxa. Apostem fermament per la preservació dels mètodes i valors tradicionals del nostre col·lectiu, mantenint-nos fidels a les nostres arrels culturals i espirituals.</p>
+        </section>
+        
+        <div class="block">
+        <h2>Galeria d’Imatges</h2>
+            <div class="image-grid">
+                <img src="img/1.jpg" alt="Llebrer Afganès" onclick="showImage('img/1.jpg', 'Brit Milà', 'Tècnica de circumcisió jueva en nadons amb 8 dies de vida')">
+                <img src="img/2.jpg" alt="Terrier" onclick="showImage('img/2.jpg', 'Cirugia', 'Emprem tècniques sanes i respectuoses amb les sagrades pautes del Torà.')">
+                <img src="img/3.jpg" alt="Akita" onclick="showImage('img/3.jpg', 'Tècnica', 'La tècnica a seguir és molt senzilla.')">
+                <img src="img/4.jpg" alt="Bulldog" onclick="showImage('img/4.jpg', 'El Sant Prepuci', 'La Bíblia i el Torà narren la història del Sant Prepuci.')">
+            </div>
+            <!-- Contenidor per a la imatge ampliada -->
+            <div id="image-preview" class="image-preview">
+                <img id="preview-img" src="img/placeholder.jpg" alt="Imatge ampliada">
+                <h3 id="preview-title">&nbsp;</h3>
+                <p id="preview-text"></p>
+            </div>
+        </div>
+
+        <section id="contacte">
+            <h2>Lloc i contacte</h2>
+            <div id="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188.7725982185081!2d0.5158964898997832!3d40.81449152167781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a0e4bd340f6f65%3A0xb1041e9784fbd739!2sGu%C3%A0rdia%20Civil!5e0!3m2!1sca!2ses!4v1732100340269!5m2!1sca!2ses" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe></div>
+            <p><strong>Adreça:</strong> Av. Cristòfol Colom, 32, Tortosa</p>
+            <p><strong>Telèfon:</strong> <a href="tel:601091939">601 091 939</a></p>
+            <p><strong>Correu electrònic:</strong> <a href="mailto:iamclearlynotass@jewish.org">iamclearlynotass@jewish.org</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed by Pol Casanova Puig</p>
+    </footer>
+
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8tUKID8tu6dxMFoo1YPg3mmOsc9WundI&callback=initMap"></script>
+</body>
+</html>
