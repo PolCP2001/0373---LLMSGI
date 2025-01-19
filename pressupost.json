@@ -1,0 +1,198 @@
+{
+    "client": {
+        "nom": {
+            "text": "No especificat"
+        },
+        "comentari": {
+            "text": "“Hola, necessito que hem configureu dos pressupostos d'un ordinador d'acord als següents components: una placa base, un processador, dos sticks de memòria RAM, un disc dur, una targeta gràfica i una targeta de so. Els altres components els puc reutilitzar de l'ordinador que tinc actualment. Gràcies”."
+        }
+    },
+    "opcions": {
+        "pressupost": [
+            {
+                "@id": "1",
+                "component": [
+                    {
+                        "tipus": {
+                            "text": "Placa base"
+                        },
+                        "model": {
+                            "text": "MSI B450 TOMAHAWK MAX II"
+                        },
+                        "preu": {
+                            "text": "110.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    },
+                    {
+                        "tipus": {
+                            "text": "Processador"
+                        },
+                        "model": {
+                            "text": "AMD Ryzen 5 5600"
+                        },
+                        "preu": {
+                            "text": "160.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    },
+                    {
+                        "tipus": {
+                            "text": "Memòria RAM"
+                        },
+                        "model": {
+                            "text": "Kingston FURY Beast DDR4 16GB (2x8GB) 3200MHz"
+                        },
+                        "preu": {
+                            "text": "70.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    },
+                    {
+                        "tipus": {
+                            "text": "Disc dur"
+                        },
+                        "model": {
+                            "text": "Samsung 970 EVO Plus SSD NVMe 1TB"
+                        },
+                        "preu": {
+                            "text": "100.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    },
+                    {
+                        "tipus": {
+                            "text": "Targeta gràfica"
+                        },
+                        "model": {
+                            "text": "NVIDIA GeForce RTX 3060 Ti"
+                        },
+                        "preu": {
+                            "text": "400.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    },
+                    {
+                        "tipus": {
+                            "text": "Targeta de so"
+                        },
+                        "model": {
+                            "text": "Creative Sound Blaster Audigy FX"
+                        },
+                        "preu": {
+                            "text": "40.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    }
+                ],
+                "total": {
+                    "text": "880.00 EUR"
+                }
+            },
+            {
+                "@id": "2",
+                "component": [
+                    {
+                        "tipus": {
+                            "text": "Placa base"
+                        },
+                        "model": {
+                            "text": "ASUS TUF Gaming B550-PLUS"
+                        },
+                        "preu": {
+                            "text": "140.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    },
+                    {
+                        "tipus": {
+                            "text": "Processador"
+                        },
+                        "model": {
+                            "text": "Intel Core i5-12400F"
+                        },
+                        "preu": {
+                            "text": "180.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    },
+                    {
+                        "tipus": {
+                            "text": "Memòria RAM"
+                        },
+                        "model": {
+                            "text": "Corsair Vengeance LPX DDR4 16GB (2x8GB) 3200MHz"
+                        },
+                        "preu": {
+                            "text": "75.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    },
+                    {
+                        "tipus": {
+                            "text": "Disc dur"
+                        },
+                        "model": {
+                            "text": "Crucial MX500 SSD 1TB"
+                        },
+                        "preu": {
+                            "text": "95.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    },
+                    {
+                        "tipus": {
+                            "text": "Targeta gràfica"
+                        },
+                        "model": {
+                            "text": "AMD Radeon RX 6700 XT"
+                        },
+                        "preu": {
+                            "text": "450.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    },
+                    {
+                        "tipus": {
+                            "text": "Targeta de so"
+                        },
+                        "model": {
+                            "text": "ASUS Xonar SE"
+                        },
+                        "preu": {
+                            "text": "45.00"
+                        },
+                        "moneda": {
+                            "text": "EUR"
+                        }
+                    }
+                ],
+                "total": {
+                    "text": "985.00 EUR"
+                }
+            }
+        ]
+    }
+}

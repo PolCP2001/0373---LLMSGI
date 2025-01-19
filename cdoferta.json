@@ -1,0 +1,124 @@
+{
+    "CD": [
+        {
+            "Titulo": {
+                "text": "Still got the blues"
+            },
+            "Artista": {
+                "text": "Gary Moore"
+            },
+            "Pais": {
+                "text": "UK"
+            },
+            "CompaniaDiscografica": {
+                "text": "Virgin records"
+            },
+            "Precio": {
+                "text": "10.20"
+            },
+            "AnoPublicacion": {
+                "text": "1990"
+            }
+        },
+        {
+            "Titulo": {
+                "text": "One night only"
+            },
+            "Artista": {
+                "text": "Bee Gees"
+            },
+            "Pais": {
+                "text": "UK"
+            },
+            "CompaniaDiscografica": {
+                "text": "Polydor"
+            },
+            "Precio": {
+                "text": "10.90"
+            },
+            "AnoPublicacion": {
+                "text": "1998"
+            }
+        },
+        {
+            "Titulo": {
+                "text": "When a man loves a woman"
+            },
+            "Artista": {
+                "text": "Percy Sledge"
+            },
+            "Pais": {
+                "text": "USA"
+            },
+            "CompaniaDiscografica": {
+                "text": "Atlantic"
+            },
+            "Precio": {
+                "text": "8.70"
+            },
+            "AnoPublicacion": {
+                "text": "1987"
+            }
+        },
+        {
+            "Titulo": {
+                "text": "Big Willie style"
+            },
+            "Artista": {
+                "text": "Will Smith"
+            },
+            "Pais": {
+                "text": "USA"
+            },
+            "CompaniaDiscografica": {
+                "text": "Columbia"
+            },
+            "Precio": {
+                "text": "9.90"
+            },
+            "AnoPublicacion": {
+                "text": "1997"
+            }
+        },
+        {
+            "Titulo": {
+                "text": "La canción de Juan Perro"
+            },
+            "Artista": {
+                "text": "Radio Futura"
+            },
+            "Pais": {
+                "text": "España"
+            },
+            "CompaniaDiscografica": {
+                "text": "Sony Music-Ariola"
+            },
+            "Precio": {
+                "text": "9.90"
+            },
+            "AnoPublicacion": {
+                "text": "1987"
+            }
+        },
+        {
+            "Titulo": {
+                "text": "The dock of the bay"
+            },
+            "Artista": {
+                "text": "Otis Redding"
+            },
+            "Pais": {
+                "text": "USA"
+            },
+            "CompaniaDiscografica": {
+                "text": "Atlantic"
+            },
+            "Precio": {
+                "text": "7.90"
+            },
+            "AnoPublicacion": {
+                "text": "1987"
+            }
+        }
+    ]
+}
